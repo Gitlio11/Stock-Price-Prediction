@@ -1,0 +1,16 @@
+# This part ignores the Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# This part ignores VS Code settings
+.vscode/
+
+# This ignores Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# This ignores the OS files
+.DS_Store
+Thumbs.db
