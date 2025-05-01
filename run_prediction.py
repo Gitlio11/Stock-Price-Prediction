@@ -8,11 +8,11 @@ def main():
     TICKER = "AAPL"  # This is Apple
     START_DATE = "2015-01-01"
     END_DATE = "2023-11-13"
-    SEQ_LENGTH = 60  # This is 60 days of historical data
+    SEQ_LENGTH = 60  # This is 60 days of historical data window
     
     print("Starting prediction for", TICKER)
     
-    # I crearted the predictor here
+    # I created the predictor here
     predictor = StockPricePredictor(
         ticker=TICKER,
         start_date=START_DATE,
